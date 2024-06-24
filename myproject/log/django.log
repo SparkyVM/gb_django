@@ -1,0 +1,9 @@
+INFO 2024-06-24 21:49:16,469 autoreload 9496 9500 Watching for file changes with StatReloader
+INFO 2024-06-24 21:49:25,582 basehttp 9496 3852 "GET /info/ HTTP/1.1" 200 720
+INFO 2024-06-24 21:49:26,804 basehttp 9496 3852 "GET /info/about/ HTTP/1.1" 200 455
+INFO 2024-06-24 21:49:28,555 basehttp 9496 3852 "GET /info/ HTTP/1.1" 200 720
+INFO 2024-06-24 21:49:33,854 basehttp 9496 3852 "GET /game/kubik HTTP/1.1" 301 0
+INFO 2024-06-24 21:49:33,856 basehttp 9496 13488 "GET /game/kubik/ HTTP/1.1" 200 1
+INFO 2024-06-24 21:49:35,782 basehttp 9496 13488 "GET /game/kubik/ HTTP/1.1" 200 1
+INFO 2024-06-24 21:50:08,318 autoreload 9496 9500 D:\Book\PyFolder\gb_django\myproject\gameapp\views.py changed, reloading.
+INFO 2024-06-24 21:50:08,614 autoreload 3012 10452 Watching for file changes with StatReloader
