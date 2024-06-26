@@ -33,12 +33,18 @@ class User(models.Model):
     adr = models.CharField(max_length=100)
     date_add = models.DateField(auto_now_add=True)
 
+    def __str__(self) -> str:
+        return f'Name: {self.name}, email: {self.email}, phone:{self.phone}'
+
 class Item(models.Model):
     name = models.CharField(max_length=50)
     description = models.CharField(max_length=100)
     price = models.DecimalField(max_digits=8, decimal_places=2)
     count = models.IntegerField(default=0)
     date_add = models.DateField(auto_now_add=True)
+
+    def __str__(self) -> str:
+        return f'Name: {self.name}, description: {self.description}, price: {self.price}'
 
 class Order(models.Model):
     user_id = models.ForeignKey(User, on_delete=models.CASCADE)

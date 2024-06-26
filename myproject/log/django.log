@@ -37,3 +37,17 @@ INFO 2024-06-26 11:58:48,218 basehttp 9312 5588 "GET /market/ HTTP/1.1" 200 720
 INFO 2024-06-26 12:00:58,383 autoreload 9312 1232 D:\My\Book\PyFolder\gb_django\myproject\marketapp\models.py changed, reloading.
 INFO 2024-06-26 12:00:59,253 autoreload 5848 844 Watching for file changes with StatReloader
 INFO 2024-06-26 14:11:54,394 autoreload 11904 10924 Watching for file changes with StatReloader
+INFO 2024-06-26 18:46:53,869 autoreload 7492 1124 Watching for file changes with StatReloader
+INFO 2024-06-26 18:47:39,520 autoreload 7492 1124 D:\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-26 18:47:39,916 autoreload 12840 8384 Watching for file changes with StatReloader
+WARNING 2024-06-26 18:47:42,512 log 12840 12340 Not Found: /
+WARNING 2024-06-26 18:47:42,513 basehttp 12840 12340 "GET / HTTP/1.1" 404 2379
+WARNING 2024-06-26 18:47:42,542 log 12840 12340 Not Found: /favicon.ico
+WARNING 2024-06-26 18:47:42,543 basehttp 12840 12340 "GET /favicon.ico HTTP/1.1" 404 2430
+INFO 2024-06-26 18:48:10,557 basehttp 12840 12340 "GET /info HTTP/1.1" 301 0
+INFO 2024-06-26 18:48:10,567 basehttp 12840 14248 "GET /info/ HTTP/1.1" 200 720
+INFO 2024-06-26 18:48:12,668 basehttp 12840 14248 "GET /info/about/ HTTP/1.1" 200 468
+INFO 2024-06-26 18:48:14,178 basehttp 12840 14248 "GET /info/ HTTP/1.1" 200 720
+INFO 2024-06-26 18:48:20,748 basehttp 12840 14248 "GET /market HTTP/1.1" 301 0
+INFO 2024-06-26 18:48:20,756 basehttp 12840 8904 "GET /market/ HTTP/1.1" 200 383
+INFO 2024-06-26 18:48:22,721 basehttp 12840 8904 "GET /info/about/ HTTP/1.1" 200 468
