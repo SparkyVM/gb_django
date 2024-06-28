@@ -50,4 +50,4 @@ class Order(models.Model):
     user_id = models.ForeignKey(User, on_delete=models.CASCADE)
     item_id = models.ForeignKey(Item, on_delete=models.CASCADE)
     price = models.DecimalField(max_digits=8, decimal_places=2)
-    date_add = models.DateField(auto_now_add=True)
+    date_add = models.DateField()

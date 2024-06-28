@@ -1,34 +1,8 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
-#from models import User, Item, Order
+from .models import Order, User
+from datetime import timedelta, date
 
-# 2
-"""
-Создайте три модели Django: клиент, товар и заказ.
-Клиент может иметь несколько заказов. Заказ может содержать несколько товаров. Товар может входить в несколько заказов.
-
-Поля модели «Клиент»:
-— имя клиента
-— электронная почта клиента
-— номер телефона клиента
-— адрес клиента
-— дата регистрации клиента
-
-Поля модели «Товар»:
-— название товара
-— описание товара
-— цена товара
-— количество товара
-— дата добавления товара
-
-Поля модели «Заказ»:
-— связь с моделью «Клиент», указывает на клиента, сделавшего заказ
-— связь с моделью «Товар», указывает на товары, входящие в заказ
-— общая сумма заказа
-— дата оформления заказа
-
-Допишите несколько функций CRUD для работы с моделями по желанию. Что по вашему мнению актуально в такой ба
-"""
 
 def index(request):
     html = '''<!DOCTYPE html>
@@ -46,6 +20,31 @@ def index(request):
         </html>'''
     return HttpResponse(html)
 
-def show_users(request):
-    html = 'users'
-    return HttpResponse(html)
+def show_users(request):                    # показать всех пользователей
+    list_users = User.objects.all()
+    return render(request, 'marketapp/users.html', {'users':list_users})
+
+def show_user_orders(request, user_id):     # показать все заказы пользователя
+    user = get_object_or_404(User, pk=user_id)
+    list_orders = Order.objects.filter(user_id=user).order_by('-date_add')
+    return render(request, 'marketapp/orders.html', {'user': user, 'orders': list_orders})
+
+def last_days_orders(request, days):        # выборка за Х дней
+    filter_dt = date.today() - timedelta(days=days)
+    list_orders = Order.objects.filter(date_add__gt=filter_dt).order_by('-date_add')
+    return render(request, 'marketapp/orders.html', {'orders':list_orders})
+
+def week_orders(request):                   # выборка за неделю
+    filter_dt = date.today() - timedelta(days=7)
+    list_orders = Order.objects.filter(date_add__gt=filter_dt).order_by('-date_add')
+    return render(request, 'marketapp/orders.html', {'orders':list_orders})
+
+def month_orders(request):                   # выборка за месяц
+    filter_dt = date.today() - timedelta(days=30)
+    list_orders = Order.objects.filter(date_add__gt=filter_dt).order_by('-date_add')
+    return render(request, 'marketapp/orders.html', {'orders':list_orders})
+
+def year_orders(request):                   # выборка за год
+    filter_dt = date.today() - timedelta(days=365)
+    list_orders = Order.objects.filter(date_add__gt=filter_dt).order_by('-date_add')
+    return render(request, 'marketapp/orders.html', {'orders':list_orders})

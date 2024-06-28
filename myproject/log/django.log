@@ -51,3 +51,700 @@ INFO 2024-06-26 18:48:14,178 basehttp 12840 14248 "GET /info/ HTTP/1.1" 200 720
 INFO 2024-06-26 18:48:20,748 basehttp 12840 14248 "GET /market HTTP/1.1" 301 0
 INFO 2024-06-26 18:48:20,756 basehttp 12840 8904 "GET /market/ HTTP/1.1" 200 383
 INFO 2024-06-26 18:48:22,721 basehttp 12840 8904 "GET /info/about/ HTTP/1.1" 200 468
+INFO 2024-06-28 11:40:18,971 autoreload 11904 9036 Watching for file changes with StatReloader
+INFO 2024-06-28 11:40:42,605 autoreload 11904 9036 D:\My\Book\PyFolder\gb_django\myproject\marketapp\urls.py changed, reloading.
+INFO 2024-06-28 11:40:43,426 autoreload 8188 6508 Watching for file changes with StatReloader
+INFO 2024-06-28 11:40:53,270 autoreload 8188 6508 D:\My\Book\PyFolder\gb_django\myproject\marketapp\urls.py changed, reloading.
+INFO 2024-06-28 11:40:54,073 autoreload 13120 8196 Watching for file changes with StatReloader
+WARNING 2024-06-28 11:40:57,482 log 13120 12816 Not Found: /
+WARNING 2024-06-28 11:40:57,515 basehttp 13120 12816 "GET / HTTP/1.1" 404 2379
+WARNING 2024-06-28 11:40:57,705 log 13120 12816 Not Found: /favicon.ico
+WARNING 2024-06-28 11:40:57,706 basehttp 13120 12816 "GET /favicon.ico HTTP/1.1" 404 2430
+WARNING 2024-06-28 11:41:20,185 log 13120 12816 Not Found: /market/orders/5
+WARNING 2024-06-28 11:41:20,186 basehttp 13120 12816 "GET /market/orders/5 HTTP/1.1" 404 2704
+INFO 2024-06-28 11:42:18,162 autoreload 13120 8196 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 11:42:19,200 autoreload 10804 3780 Watching for file changes with StatReloader
+WARNING 2024-06-28 11:42:26,813 log 10804 1988 Not Found: /market/orders/5
+WARNING 2024-06-28 11:42:26,815 basehttp 10804 1988 "GET /market/orders/5 HTTP/1.1" 404 2704
+INFO 2024-06-28 11:44:25,122 autoreload 10804 3780 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 11:44:26,041 autoreload 8336 7164 Watching for file changes with StatReloader
+WARNING 2024-06-28 11:44:30,546 log 8336 2540 Not Found: /market/orders/5
+WARNING 2024-06-28 11:44:30,548 basehttp 8336 2540 "GET /market/orders/5 HTTP/1.1" 404 2704
+INFO 2024-06-28 11:46:51,819 autoreload 8336 7164 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 11:46:52,741 autoreload 5564 12448 Watching for file changes with StatReloader
+WARNING 2024-06-28 11:46:55,827 log 5564 11620 Not Found: /market/orders/5
+WARNING 2024-06-28 11:46:55,828 basehttp 5564 11620 "GET /market/orders/5 HTTP/1.1" 404 2704
+INFO 2024-06-28 11:48:34,150 autoreload 5564 12448 D:\My\Book\PyFolder\gb_django\myproject\marketapp\urls.py changed, reloading.
+INFO 2024-06-28 11:48:34,955 autoreload 5928 9932 Watching for file changes with StatReloader
+INFO 2024-06-28 11:48:38,071 basehttp 5928 4556 "GET /market/orders/5 HTTP/1.1" 301 0
+INFO 2024-06-28 11:48:38,078 basehttp 5928 12848 "GET /market/orders/5/ HTTP/1.1" 200 29
+INFO 2024-06-28 12:06:43,062 autoreload 5928 9932 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 12:06:43,992 autoreload 13408 7984 Watching for file changes with StatReloader
+INFO 2024-06-28 12:07:58,141 autoreload 13408 7984 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 12:07:58,936 autoreload 3520 4428 Watching for file changes with StatReloader
+INFO 2024-06-28 12:08:51,009 autoreload 3520 4428 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 12:08:51,801 autoreload 8252 8416 Watching for file changes with StatReloader
+INFO 2024-06-28 12:09:43,732 autoreload 8252 8416 D:\My\Book\PyFolder\gb_django\myproject\marketapp\urls.py changed, reloading.
+INFO 2024-06-28 12:09:44,484 autoreload 11040 5996 Watching for file changes with StatReloader
+INFO 2024-06-28 12:09:49,431 basehttp 11040 10024 "GET /market/orders/5/ HTTP/1.1" 200 143
+ERROR 2024-06-28 12:11:54,482 log 11040 10024 Internal Server Error: /market/orders/5/
+Traceback (most recent call last):
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: martetapp/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py", line 52, in last_days_orders
+    return render(request, 'marketapp/orders.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: martetapp/base.html
+ERROR 2024-06-28 12:11:54,501 basehttp 11040 10024 "GET /market/orders/5/ HTTP/1.1" 500 126084
+INFO 2024-06-28 12:12:11,492 basehttp 11040 10024 "GET /market/orders/5/ HTTP/1.1" 200 273
+INFO 2024-06-28 13:12:56,430 autoreload 11364 9444 Watching for file changes with StatReloader
+WARNING 2024-06-28 13:13:02,454 log 11364 10072 Not Found: /
+WARNING 2024-06-28 13:13:02,488 basehttp 11364 10072 "GET / HTTP/1.1" 404 2379
+WARNING 2024-06-28 13:13:03,241 log 11364 10072 Not Found: /favicon.ico
+WARNING 2024-06-28 13:13:03,241 basehttp 11364 10072 "GET /favicon.ico HTTP/1.1" 404 2430
+INFO 2024-06-28 13:13:12,685 basehttp 11364 2248 "GET /market HTTP/1.1" 301 0
+INFO 2024-06-28 13:13:12,703 basehttp 11364 7928 "GET /market/ HTTP/1.1" 200 383
+WARNING 2024-06-28 13:13:22,601 log 11364 7928 Not Found: /market/10
+WARNING 2024-06-28 13:13:22,602 basehttp 11364 7928 "GET /market/10 HTTP/1.1" 404 2688
+INFO 2024-06-28 13:13:34,774 basehttp 11364 7928 "GET /market/orders/15 HTTP/1.1" 301 0
+ERROR 2024-06-28 13:13:34,910 log 11364 11440 Internal Server Error: /market/orders/15/
+Traceback (most recent call last):
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py", line 24, in last_days_orders
+    list_orders = Order.objects.filter(date_add__ge=datetime.now-days).order_by('-date_add')
+                                                    ~~~~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for -: 'builtin_function_or_method' and 'int'
+ERROR 2024-06-28 13:13:34,925 basehttp 11364 11440 "GET /market/orders/15/ HTTP/1.1" 500 66890
+INFO 2024-06-28 13:15:27,419 autoreload 11364 9444 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 13:15:29,492 autoreload 8900 12224 Watching for file changes with StatReloader
+ERROR 2024-06-28 13:15:37,978 log 8900 13452 Internal Server Error: /market/orders/15/
+Traceback (most recent call last):
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py", line 24, in last_days_orders
+    list_orders = Order.objects.filter(date_add__ge=datetime.now - timedelta(days=days)).order_by('-date_add')
+                                                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'builtin_function_or_method' and 'datetime.timedelta'
+ERROR 2024-06-28 13:15:37,984 basehttp 8900 13452 "GET /market/orders/15/ HTTP/1.1" 500 67159
+INFO 2024-06-28 13:17:05,255 autoreload 8900 12224 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 13:17:06,597 autoreload 6832 12568 Watching for file changes with StatReloader
+ERROR 2024-06-28 13:17:10,797 log 6832 12240 Internal Server Error: /market/orders/15/
+Traceback (most recent call last):
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py", line 24, in last_days_orders
+    filter_dt = datetime.now - timedelta(days=days)
+                ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'builtin_function_or_method' and 'datetime.timedelta'
+ERROR 2024-06-28 13:17:10,805 basehttp 6832 12240 "GET /market/orders/15/ HTTP/1.1" 500 67006
+INFO 2024-06-28 13:18:48,971 autoreload 6832 12568 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 13:18:50,727 autoreload 9876 1316 Watching for file changes with StatReloader
+ERROR 2024-06-28 13:18:52,257 log 9876 12580 Internal Server Error: /market/orders/15/
+Traceback (most recent call last):
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py", line 26, in last_days_orders
+    list_orders = Order.objects.filter(date_add__ge=filter_dt).order_by('-date_add')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1383, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1427, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'ge' for DateField or join on the field not permitted, perhaps you meant gte?
+ERROR 2024-06-28 13:18:52,275 basehttp 9876 12580 "GET /market/orders/15/ HTTP/1.1" 500 115807
+INFO 2024-06-28 13:19:28,429 autoreload 9876 1316 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 13:19:30,046 autoreload 1632 10920 Watching for file changes with StatReloader
+ERROR 2024-06-28 13:19:32,226 log 1632 11020 Internal Server Error: /market/orders/15/
+Traceback (most recent call last):
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py", line 26, in last_days_orders
+    list_orders = Order.objects.filter(date_add__ge=filter_dt).order_by('-date_add')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1383, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1427, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'ge' for DateField or join on the field not permitted, perhaps you meant gte?
+ERROR 2024-06-28 13:19:32,248 basehttp 1632 11020 "GET /market/orders/15/ HTTP/1.1" 500 115828
+INFO 2024-06-28 13:20:50,882 autoreload 1632 10920 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 13:20:52,778 autoreload 8596 10676 Watching for file changes with StatReloader
+INFO 2024-06-28 13:20:55,322 basehttp 8596 3364 "GET /market/orders/15/ HTTP/1.1" 200 273
+INFO 2024-06-28 13:27:04,452 autoreload 8596 10676 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 13:27:05,693 autoreload 3372 12240 Watching for file changes with StatReloader
+ERROR 2024-06-28 13:27:11,007 log 3372 13020 Internal Server Error: /market/orders/15/
+Traceback (most recent call last):
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py", line 25, in last_days_orders
+    list_orders = Order.objects.filter(date_add__date__ge=filter_dt).order_by('-date_add')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1376, in build_lookup
+    lhs = self.try_transform(lhs, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1427, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'date' for DateField or join on the field not permitted.
+ERROR 2024-06-28 13:27:11,037 basehttp 3372 13020 "GET /market/orders/15/ HTTP/1.1" 500 115990
+INFO 2024-06-28 13:27:33,571 autoreload 3372 12240 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 13:27:35,171 autoreload 8648 10344 Watching for file changes with StatReloader
+ERROR 2024-06-28 13:27:43,750 log 8648 11632 Internal Server Error: /market/orders/15/
+Traceback (most recent call last):
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py", line 25, in last_days_orders
+    list_orders = Order.objects.filter(date_add__date__ge=filter_dt).order_by('-date_add')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1376, in build_lookup
+    lhs = self.try_transform(lhs, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1427, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'date' for DateField or join on the field not permitted.
+ERROR 2024-06-28 13:27:43,772 basehttp 8648 11632 "GET /market/orders/15/ HTTP/1.1" 500 116006
+INFO 2024-06-28 13:32:43,953 autoreload 8648 10344 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 13:32:45,334 autoreload 6868 11076 Watching for file changes with StatReloader
+ERROR 2024-06-28 13:32:47,510 log 6868 13340 Internal Server Error: /market/orders/15/
+Traceback (most recent call last):
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py", line 25, in last_days_orders
+    list_orders = Order.objects.filter(date_add__date__ge=filter_dt).order_by('-date_add')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1376, in build_lookup
+    lhs = self.try_transform(lhs, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1427, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'date' for DateField or join on the field not permitted.
+ERROR 2024-06-28 13:32:47,556 basehttp 6868 13340 "GET /market/orders/15/ HTTP/1.1" 500 116006
+INFO 2024-06-28 13:36:25,177 autoreload 6868 11076 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 13:36:26,958 autoreload 7916 8448 Watching for file changes with StatReloader
+ERROR 2024-06-28 13:36:28,274 log 7916 7848 Internal Server Error: /market/orders/15/
+Traceback (most recent call last):
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py", line 25, in last_days_orders
+    list_orders = Order.objects.filter(date_add__date__range=[datetime.now(),filter_dt]).order_by('-date_add')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1376, in build_lookup
+    lhs = self.try_transform(lhs, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1427, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'date' for DateField or join on the field not permitted.
+ERROR 2024-06-28 13:36:28,309 basehttp 7916 7848 "GET /market/orders/15/ HTTP/1.1" 500 116778
+INFO 2024-06-28 13:47:23,432 autoreload 7916 8448 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 13:47:25,327 autoreload 9336 8328 Watching for file changes with StatReloader
+INFO 2024-06-28 13:47:29,336 basehttp 9336 1280 "GET /market/orders/15/ HTTP/1.1" 200 273
+INFO 2024-06-28 13:52:39,110 autoreload 9336 8328 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 13:52:40,457 autoreload 10000 13132 Watching for file changes with StatReloader
+INFO 2024-06-28 13:52:42,032 basehttp 10000 14036 "GET /market/orders/15/ HTTP/1.1" 200 273
+INFO 2024-06-28 14:00:04,678 autoreload 10000 13132 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 14:00:06,342 autoreload 14904 11012 Watching for file changes with StatReloader
+ERROR 2024-06-28 14:00:12,482 log 14904 15156 Internal Server Error: /market/orders/15/
+Traceback (most recent call last):
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py", line 28, in last_days_orders
+    return render(request, 'marketapp/orders.html', {'orders':list_orders})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 13: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR 2024-06-28 14:00:12,546 basehttp 14904 15156 "GET /market/orders/15/ HTTP/1.1" 500 180295
+INFO 2024-06-28 14:00:33,507 basehttp 14904 15156 "GET /market/orders/15/ HTTP/1.1" 200 299
+INFO 2024-06-28 14:00:53,001 autoreload 14904 11012 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 14:00:54,490 autoreload 13100 14720 Watching for file changes with StatReloader
+INFO 2024-06-28 14:00:58,550 basehttp 13100 8172 "GET /market/orders/15/ HTTP/1.1" 200 299
+INFO 2024-06-28 14:02:18,242 basehttp 13100 8172 "GET /market/orders/15/ HTTP/1.1" 200 299
+INFO 2024-06-28 14:02:57,874 basehttp 13100 8172 "GET /market/orders/15/ HTTP/1.1" 200 316
+INFO 2024-06-28 14:05:04,515 autoreload 9128 5932 Watching for file changes with StatReloader
+INFO 2024-06-28 14:05:17,401 basehttp 9128 1636 "GET /market/orders/15/ HTTP/1.1" 200 316
+INFO 2024-06-28 14:05:54,867 basehttp 9128 1636 "GET /market/orders/15/ HTTP/1.1" 200 331
+INFO 2024-06-28 14:06:59,338 basehttp 9128 1636 "GET /market/orders/15/ HTTP/1.1" 200 336
+INFO 2024-06-28 14:45:56,616 autoreload 14496 7668 Watching for file changes with StatReloader
+INFO 2024-06-28 14:46:01,020 basehttp 14496 1896 "GET /market/orders/15/ HTTP/1.1" 200 336
+INFO 2024-06-28 14:48:58,383 basehttp 14496 1896 "GET /market/orders/15/ HTTP/1.1" 200 336
+INFO 2024-06-28 14:49:57,309 basehttp 14496 1896 "GET /market/orders/15/ HTTP/1.1" 200 340
+INFO 2024-06-28 14:52:03,085 autoreload 14496 7668 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 14:52:04,318 autoreload 10420 7976 Watching for file changes with StatReloader
+INFO 2024-06-28 14:52:07,098 basehttp 10420 11196 "GET /market/orders/15/ HTTP/1.1" 200 340
+INFO 2024-06-28 14:52:12,151 basehttp 10420 11196 "GET /market/orders/15/ HTTP/1.1" 200 340
+WARNING 2024-06-28 14:52:16,881 log 10420 11196 Not Found: /market/orders/
+WARNING 2024-06-28 14:52:16,883 basehttp 10420 11196 "GET /market/orders/ HTTP/1.1" 404 2703
+INFO 2024-06-28 14:52:21,801 basehttp 10420 11196 "GET /market/orders/15/ HTTP/1.1" 200 340
+INFO 2024-06-28 14:53:09,565 autoreload 10420 7976 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 14:53:10,582 autoreload 14944 15208 Watching for file changes with StatReloader
+INFO 2024-06-28 14:53:14,138 basehttp 14944 3368 "GET /market/orders/15/ HTTP/1.1" 200 585
+INFO 2024-06-28 14:53:52,944 autoreload 14944 15208 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 14:53:54,023 autoreload 14548 15140 Watching for file changes with StatReloader
+INFO 2024-06-28 14:53:59,749 basehttp 14548 15104 "GET /market/orders/15/ HTTP/1.1" 200 349
+INFO 2024-06-28 14:57:05,932 autoreload 14548 15140 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 14:57:07,853 autoreload 1416 3456 Watching for file changes with StatReloader
+INFO 2024-06-28 14:57:10,271 basehttp 1416 3496 "GET /market/orders/15/ HTTP/1.1" 200 1139
+INFO 2024-06-28 15:00:07,820 basehttp 1416 3496 "GET /market/orders/15/ HTTP/1.1" 200 1193
+INFO 2024-06-28 15:01:20,049 autoreload 1416 3456 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 15:01:21,698 autoreload 6732 6792 Watching for file changes with StatReloader
+INFO 2024-06-28 15:01:26,362 autoreload 6732 6792 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 15:01:27,394 autoreload 13592 3188 Watching for file changes with StatReloader
+INFO 2024-06-28 15:01:48,103 basehttp 13592 15320 "GET /market/orders/15/ HTTP/1.1" 200 1193
+WARNING 2024-06-28 15:13:45,689 log 13592 14584 Not Found: /market/users
+WARNING 2024-06-28 15:13:45,691 basehttp 13592 14584 "GET /market/users HTTP/1.1" 404 2697
+INFO 2024-06-28 15:13:56,270 autoreload 13592 3188 D:\My\Book\PyFolder\gb_django\myproject\marketapp\urls.py changed, reloading.
+INFO 2024-06-28 15:13:57,366 autoreload 1312 9644 Watching for file changes with StatReloader
+INFO 2024-06-28 15:14:01,119 basehttp 1312 14800 "GET /market/users HTTP/1.1" 301 0
+INFO 2024-06-28 15:14:01,127 basehttp 1312 14504 "GET /market/users/ HTTP/1.1" 200 5
+INFO 2024-06-28 15:15:28,754 autoreload 1312 9644 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 15:15:30,217 autoreload 15180 9316 Watching for file changes with StatReloader
+INFO 2024-06-28 15:15:34,804 basehttp 15180 11304 "GET /market/users/ HTTP/1.1" 200 800
+INFO 2024-06-28 15:19:44,800 basehttp 15180 11304 "GET /market/orders/15/ HTTP/1.1" 200 2974
+INFO 2024-06-28 15:20:28,556 basehttp 15180 11304 "GET /market/orders/15/ HTTP/1.1" 200 1635
+INFO 2024-06-28 15:20:43,593 basehttp 15180 11304 "GET /market/orders/15/ HTTP/1.1" 200 1596
+INFO 2024-06-28 15:23:32,639 autoreload 15180 9316 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 15:23:34,237 autoreload 14748 14700 Watching for file changes with StatReloader
+INFO 2024-06-28 15:25:18,028 autoreload 14748 14700 D:\My\Book\PyFolder\gb_django\myproject\marketapp\urls.py changed, reloading.
+INFO 2024-06-28 15:25:19,228 autoreload 4008 15220 Watching for file changes with StatReloader
+INFO 2024-06-28 15:25:30,027 autoreload 4008 15220 D:\My\Book\PyFolder\gb_django\myproject\marketapp\urls.py changed, reloading.
+INFO 2024-06-28 15:25:31,377 autoreload 1884 14664 Watching for file changes with StatReloader
+INFO 2024-06-28 15:26:02,005 autoreload 1884 14664 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 15:26:03,112 autoreload 132 14584 Watching for file changes with StatReloader
+WARNING 2024-06-28 15:26:26,612 log 132 9460 Not Found: /market/orders/month_orders
+WARNING 2024-06-28 15:26:26,615 basehttp 132 9460 "GET /market/orders/month_orders HTTP/1.1" 404 3473
+INFO 2024-06-28 15:26:34,159 basehttp 132 9460 "GET /market/orders/month HTTP/1.1" 301 0
+INFO 2024-06-28 15:26:34,246 basehttp 132 14156 "GET /market/orders/month/ HTTP/1.1" 200 1596
+INFO 2024-06-28 15:27:00,951 basehttp 132 14156 "GET /market/orders/week HTTP/1.1" 301 0
+INFO 2024-06-28 15:27:01,021 basehttp 132 980 "GET /market/orders/week/ HTTP/1.1" 200 1497
+INFO 2024-06-28 15:52:31,742 autoreload 12980 9340 Watching for file changes with StatReloader
+INFO 2024-06-28 15:52:43,227 basehttp 12980 10520 "GET /market/orders/week/ HTTP/1.1" 200 316
+INFO 2024-06-28 15:52:50,759 basehttp 12980 10520 "GET /market/orders/month/ HTTP/1.1" 200 514
+INFO 2024-06-28 15:53:35,986 basehttp 12980 10520 "GET /market/orders/year HTTP/1.1" 301 0
+INFO 2024-06-28 15:53:36,025 basehttp 12980 1324 "GET /market/orders/year/ HTTP/1.1" 200 2390
+INFO 2024-06-28 16:05:17,713 basehttp 12980 10636 "GET /market/orders/year/ HTTP/1.1" 200 3062
+INFO 2024-06-28 16:23:49,018 autoreload 12980 9340 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 16:23:50,047 autoreload 14736 14716 Watching for file changes with StatReloader
+WARNING 2024-06-28 16:24:35,183 log 14736 9708 Not Found: /market/users/2
+WARNING 2024-06-28 16:24:35,184 basehttp 14736 9708 "GET /market/users/2 HTTP/1.1" 404 3437
+INFO 2024-06-28 16:24:52,813 autoreload 14736 14716 D:\My\Book\PyFolder\gb_django\myproject\marketapp\urls.py changed, reloading.
+INFO 2024-06-28 16:24:54,182 autoreload 15224 11592 Watching for file changes with StatReloader
+INFO 2024-06-28 16:25:08,783 basehttp 15224 15560 "GET /market/users/2 HTTP/1.1" 301 0
+ERROR 2024-06-28 16:25:08,869 log 15224 14448 Internal Server Error: /market/users/2/
+Traceback (most recent call last):
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: show_user_orders() got an unexpected keyword argument 'user'
+ERROR 2024-06-28 16:25:08,873 basehttp 15224 14448 "GET /market/users/2/ HTTP/1.1" 500 63002
+INFO 2024-06-28 16:25:46,248 autoreload 15224 11592 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 16:25:47,640 autoreload 16280 9884 Watching for file changes with StatReloader
+ERROR 2024-06-28 16:25:49,938 log 16280 12128 Internal Server Error: /market/users/2/
+Traceback (most recent call last):
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py", line 28, in show_user_orders
+    list_users = User.objects.filter(user_id=user).order_by('-date_add')
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'user_id' into field. Choices are: adr, date_add, email, id, name, order, phone
+ERROR 2024-06-28 16:25:49,953 basehttp 16280 12128 "GET /market/users/2/ HTTP/1.1" 500 112220
+ERROR 2024-06-28 16:25:54,026 log 16280 12128 Internal Server Error: /market/users/2/
+Traceback (most recent call last):
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py", line 28, in show_user_orders
+    list_users = User.objects.filter(user_id=user).order_by('-date_add')
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'user_id' into field. Choices are: adr, date_add, email, id, name, order, phone
+ERROR 2024-06-28 16:25:54,039 basehttp 16280 12128 "GET /market/users/2/ HTTP/1.1" 500 112220
+INFO 2024-06-28 16:26:25,087 autoreload 16280 9884 D:\My\Book\PyFolder\gb_django\myproject\marketapp\urls.py changed, reloading.
+INFO 2024-06-28 16:26:26,277 autoreload 13144 1236 Watching for file changes with StatReloader
+ERROR 2024-06-28 16:26:31,605 log 13144 16044 Internal Server Error: /market/users/2/
+Traceback (most recent call last):
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py", line 28, in show_user_orders
+    list_users = User.objects.filter(user_id=user).order_by('-date_add')
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'user_id' into field. Choices are: adr, date_add, email, id, name, order, phone
+ERROR 2024-06-28 16:26:31,618 basehttp 13144 16044 "GET /market/users/2/ HTTP/1.1" 500 112220
+INFO 2024-06-28 16:36:28,581 autoreload 13144 1236 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 16:36:29,891 autoreload 14604 16244 Watching for file changes with StatReloader
+ERROR 2024-06-28 16:36:35,655 log 14604 15736 Internal Server Error: /market/users/2/
+Traceback (most recent call last):
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: show_user_orders() got an unexpected keyword argument 'user'
+ERROR 2024-06-28 16:36:35,661 basehttp 14604 15736 "GET /market/users/2/ HTTP/1.1" 500 63002
+INFO 2024-06-28 16:36:58,933 autoreload 14604 16244 D:\My\Book\PyFolder\gb_django\myproject\marketapp\urls.py changed, reloading.
+INFO 2024-06-28 16:37:00,015 autoreload 14288 14712 Watching for file changes with StatReloader
+INFO 2024-06-28 16:37:05,637 basehttp 14288 15084 "GET /market/users/2/ HTTP/1.1" 200 340
+INFO 2024-06-28 16:38:13,607 autoreload 14288 14712 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 16:38:14,531 autoreload 15452 3196 Watching for file changes with StatReloader
+INFO 2024-06-28 16:38:18,604 basehttp 15452 2652 "GET /market/users/2/ HTTP/1.1" 200 340
+INFO 2024-06-28 16:39:41,009 autoreload 15452 3196 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 16:39:42,098 autoreload 4380 12236 Watching for file changes with StatReloader
+INFO 2024-06-28 16:39:44,186 basehttp 4380 11556 "GET /market/users/2/ HTTP/1.1" 200 340
+INFO 2024-06-28 16:40:08,680 autoreload 4380 12236 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 16:40:09,688 autoreload 2064 7856 Watching for file changes with StatReloader
+INFO 2024-06-28 16:40:14,266 basehttp 2064 10440 "GET /market/users/2/ HTTP/1.1" 200 340
+INFO 2024-06-28 16:41:07,040 autoreload 2064 7856 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 16:41:08,031 autoreload 15752 2364 Watching for file changes with StatReloader
+INFO 2024-06-28 16:41:09,905 basehttp 15752 14788 "GET /market/users/2/ HTTP/1.1" 200 708
+INFO 2024-06-28 16:45:10,089 autoreload 15752 2364 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 16:45:11,241 autoreload 8336 14140 Watching for file changes with StatReloader
