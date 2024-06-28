@@ -748,3 +748,70 @@ INFO 2024-06-28 16:41:08,031 autoreload 15752 2364 Watching for file changes wit
 INFO 2024-06-28 16:41:09,905 basehttp 15752 14788 "GET /market/users/2/ HTTP/1.1" 200 708
 INFO 2024-06-28 16:45:10,089 autoreload 15752 2364 D:\My\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
 INFO 2024-06-28 16:45:11,241 autoreload 8336 14140 Watching for file changes with StatReloader
+INFO 2024-06-28 18:16:38,639 autoreload 4636 8496 Watching for file changes with StatReloader
+WARNING 2024-06-28 18:16:42,234 log 4636 1580 Not Found: /
+WARNING 2024-06-28 18:16:42,234 basehttp 4636 1580 "GET / HTTP/1.1" 404 2379
+WARNING 2024-06-28 18:16:42,351 log 4636 1580 Not Found: /favicon.ico
+WARNING 2024-06-28 18:16:42,351 basehttp 4636 1580 "GET /favicon.ico HTTP/1.1" 404 2430
+INFO 2024-06-28 18:16:58,294 basehttp 4636 1580 "GET /market/users/2 HTTP/1.1" 301 0
+ERROR 2024-06-28 18:16:58,407 log 4636 3228 Internal Server Error: /market/users/2/
+Traceback (most recent call last):
+  File "D:\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Book\PyFolder\gb_django\myproject\marketapp\views.py", line 33, in show_user_orders
+    if order['item_id'] not in res_items:
+       ~~~~~^^^^^^^^^^^
+TypeError: 'Order' object is not subscriptable
+ERROR 2024-06-28 18:16:58,409 basehttp 4636 3228 "GET /market/users/2/ HTTP/1.1" 500 67437
+INFO 2024-06-28 18:17:39,722 autoreload 4636 8496 D:\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 18:17:40,079 autoreload 3000 7260 Watching for file changes with StatReloader
+ERROR 2024-06-28 18:17:42,910 log 3000 5716 Internal Server Error: /market/users/2/
+Traceback (most recent call last):
+  File "D:\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Book\PyFolder\gb_django\myproject\marketapp\views.py", line 34, in show_user_orders
+    if order['item_id'] not in res_items:
+       ~~~~~^^^^^^^^^^^
+TypeError: 'Order' object is not subscriptable
+ERROR 2024-06-28 18:17:42,912 basehttp 3000 5716 "GET /market/users/2/ HTTP/1.1" 500 67610
+INFO 2024-06-28 18:18:15,737 autoreload 3000 7260 D:\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 18:18:16,114 autoreload 13448 10604 Watching for file changes with StatReloader
+INFO 2024-06-28 18:18:33,456 autoreload 13448 10604 D:\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 18:18:33,825 autoreload 7612 12388 Watching for file changes with StatReloader
+ERROR 2024-06-28 18:18:35,299 log 7612 11132 Internal Server Error: /market/users/2/
+Traceback (most recent call last):
+  File "D:\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Book\PyFolder\gb_django\myproject\marketapp\views.py", line 34, in show_user_orders
+    if order['item_id'] not in res_items:
+       ~~~~~^^^^^^^^^^^
+TypeError: 'Order' object is not subscriptable
+ERROR 2024-06-28 18:18:35,301 basehttp 7612 11132 "GET /market/users/2/ HTTP/1.1" 500 67618
+ERROR 2024-06-28 18:19:46,614 log 7612 11132 Internal Server Error: /market/users/2/
+Traceback (most recent call last):
+  File "D:\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Book\PyFolder\gb_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Book\PyFolder\gb_django\myproject\marketapp\views.py", line 34, in show_user_orders
+    if order['item_id'] not in res_items:
+       ~~~~~^^^^^^^^^^^
+TypeError: 'Order' object is not subscriptable
+ERROR 2024-06-28 18:19:46,616 basehttp 7612 11132 "GET /market/users/2/ HTTP/1.1" 500 67618
+INFO 2024-06-28 18:20:53,746 autoreload 7612 12388 D:\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-06-28 18:20:54,114 autoreload 12332 11312 Watching for file changes with StatReloader
+INFO 2024-06-28 18:20:56,687 basehttp 12332 9960 "GET /market/users/2/ HTTP/1.1" 200 577

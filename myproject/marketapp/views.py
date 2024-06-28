@@ -27,7 +27,13 @@ def show_users(request):                    # показать всех поль
 def show_user_orders(request, user_id):     # показать все заказы пользователя
     user = get_object_or_404(User, pk=user_id)
     list_orders = Order.objects.filter(user_id=user).order_by('-date_add')
-    return render(request, 'marketapp/orders.html', {'user': user, 'orders': list_orders})
+    res_items = []
+    res_orders = []
+    for order in list_orders:
+        if order.item_id not in res_items:
+            res_orders.append(order)
+            res_items.append(order.item_id)
+    return render(request, 'marketapp/orders.html', {'user': user, 'orders': res_orders})
 
 def last_days_orders(request, days):        # выборка за Х дней
     filter_dt = date.today() - timedelta(days=days)
