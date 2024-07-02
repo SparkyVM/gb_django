@@ -16,7 +16,7 @@ Including another URLconf
 """
 
 from django.urls import path
-from .views import index, show_users, show_user_orders, last_days_orders, week_orders, month_orders, year_orders
+from .views import index, show_users, show_user_orders, last_days_orders, week_orders, month_orders, year_orders, add_item
 
 urlpatterns = [
     path('', index, name='index'),
@@ -25,5 +25,6 @@ urlpatterns = [
     path('orders/<int:days>/', last_days_orders, name='last_days_orders'),
     path('orders/week/', week_orders, name='week_orders'),
     path('orders/month/', month_orders, name='month_orders'),
-    path('orders/year/', year_orders, name='year_orders')
+    path('orders/year/', year_orders, name='year_orders'),
+    path('item/', add_item, name='add_item')
 ]
