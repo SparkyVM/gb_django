@@ -69,13 +69,14 @@ def add_item(request):
             date_add = form.cleaned_data['date_add']
             img = form.cleaned_data['img']
             
-            fs = FileSystemStorage()
-            fs.save(img.name, img)
+            #fs = FileSystemStorage()
+            #fs.save(img.name, img)
             item = Item(name=name, 
                         description=description,
                         price=price,
                         count=count,
-                        date_add=date_add)
+                        date_add=date_add,
+                        img=img)
             item.save()
             message = 'Товар сохранен'
     else:

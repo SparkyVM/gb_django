@@ -1,0 +1,61 @@
+INFO 2024-07-02 20:06:11,272 autoreload 1808 12256 Watching for file changes with StatReloader
+INFO 2024-07-02 20:08:55,478 autoreload 10100 9156 Watching for file changes with StatReloader
+WARNING 2024-07-02 20:08:59,118 log 10100 9340 Not Found: /
+WARNING 2024-07-02 20:08:59,119 basehttp 10100 9340 "GET / HTTP/1.1" 404 2379
+WARNING 2024-07-02 20:08:59,148 log 10100 9340 Not Found: /favicon.ico
+WARNING 2024-07-02 20:08:59,148 basehttp 10100 9340 "GET /favicon.ico HTTP/1.1" 404 2430
+INFO 2024-07-02 20:09:09,964 basehttp 10100 9340 "GET /market/item HTTP/1.1" 301 0
+INFO 2024-07-02 20:09:10,090 basehttp 10100 13808 "GET /market/item/ HTTP/1.1" 200 1337
+INFO 2024-07-02 20:09:44,808 basehttp 10100 13808 "POST /market/item/ HTTP/1.1" 200 1465
+INFO 2024-07-02 20:19:59,166 autoreload 10100 9156 D:\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-07-02 20:19:59,561 autoreload 3100 10112 Watching for file changes with StatReloader
+INFO 2024-07-02 20:20:07,049 basehttp 3100 6996 "GET /market/item/ HTTP/1.1" 200 1367
+INFO 2024-07-02 20:20:10,621 basehttp 3100 6996 "GET /market/item/ HTTP/1.1" 200 1367
+INFO 2024-07-02 20:20:24,519 basehttp 3100 6996 "POST /market/item/ HTTP/1.1" 200 1416
+INFO 2024-07-02 20:22:05,465 basehttp 3100 6996 "GET /market/item/ HTTP/1.1" 200 1367
+INFO 2024-07-02 20:22:11,515 basehttp 3100 6996 "GET /market/item/ HTTP/1.1" 200 1367
+INFO 2024-07-02 20:22:35,269 basehttp 3100 6996 "POST /market/item/ HTTP/1.1" 200 1413
+INFO 2024-07-02 20:29:46,076 autoreload 2548 13976 Watching for file changes with StatReloader
+INFO 2024-07-02 20:29:55,314 basehttp 2548 13568 "GET /market/item/ HTTP/1.1" 200 1367
+INFO 2024-07-02 20:32:45,854 basehttp 2548 13568 "GET /market/item/ HTTP/1.1" 200 1440
+INFO 2024-07-02 20:34:23,774 basehttp 2548 13568 "GET /market/item/ HTTP/1.1" 200 1524
+WARNING 2024-07-02 20:34:25,664 log 2548 13568 Not Found: /market/item/marketapp/add_item.html
+WARNING 2024-07-02 20:34:28,119 basehttp 2548 13568 "GET /market/item/marketapp/add_item.html HTTP/1.1" 404 3876
+WARNING 2024-07-02 20:34:43,181 log 2548 13568 Not Found: /market/item/marketapp/users.html
+WARNING 2024-07-02 20:34:43,182 basehttp 2548 13568 "GET /market/item/marketapp/users.html HTTP/1.1" 404 3867
+INFO 2024-07-02 20:35:33,271 basehttp 2548 13568 "GET /market/item/ HTTP/1.1" 200 1492
+WARNING 2024-07-02 20:35:34,293 log 2548 13568 Not Found: /market/item/users/
+WARNING 2024-07-02 20:35:34,293 basehttp 2548 13568 "GET /market/item/users/ HTTP/1.1" 404 3825
+INFO 2024-07-02 20:40:47,699 basehttp 2548 6648 "GET /market/item/ HTTP/1.1" 200 1494
+INFO 2024-07-02 20:41:51,913 basehttp 2548 6648 "GET /market/item/ HTTP/1.1" 200 1400
+INFO 2024-07-02 20:44:19,210 basehttp 2548 6648 "GET /market/item/ HTTP/1.1" 200 1443
+INFO 2024-07-02 20:44:38,063 basehttp 2548 6648 "POST /market/item/ HTTP/1.1" 200 1494
+INFO 2024-07-02 20:47:47,739 autoreload 2548 13976 D:\Book\PyFolder\gb_django\myproject\marketapp\views.py changed, reloading.
+INFO 2024-07-02 20:47:48,092 autoreload 2100 10536 Watching for file changes with StatReloader
+INFO 2024-07-02 20:47:56,804 basehttp 2100 9040 "GET /market/item/ HTTP/1.1" 200 1443
+WARNING 2024-07-02 20:48:00,508 log 2100 9040 Not Found: /
+WARNING 2024-07-02 20:48:00,508 basehttp 2100 9040 "GET / HTTP/1.1" 404 2379
+INFO 2024-07-02 20:48:11,987 basehttp 2100 9040 "GET /market/item/ HTTP/1.1" 200 1443
+INFO 2024-07-02 20:48:26,995 basehttp 2100 9040 "POST /market/item/ HTTP/1.1" 200 1491
+INFO 2024-07-02 20:58:28,137 autoreload 10700 11612 Watching for file changes with StatReloader
+INFO 2024-07-02 20:58:28,438 basehttp 10700 9020 "GET /market/item/ HTTP/1.1" 200 1517
+WARNING 2024-07-02 20:58:33,893 log 10700 9020 Not Found: /marketapp/add_item.html
+WARNING 2024-07-02 20:58:33,894 basehttp 10700 9020 "GET /marketapp/add_item.html HTTP/1.1" 404 2466
+INFO 2024-07-02 20:58:53,543 basehttp 10700 9020 "GET /market/item/ HTTP/1.1" 200 1514
+WARNING 2024-07-02 20:58:55,480 log 10700 9020 Not Found: /market/add_item.html
+WARNING 2024-07-02 20:58:55,481 basehttp 10700 9020 "GET /market/add_item.html HTTP/1.1" 404 3831
+INFO 2024-07-02 21:01:16,669 basehttp 10700 9020 "GET /market/item/ HTTP/1.1" 200 1635
+WARNING 2024-07-02 21:01:17,692 log 10700 9020 Not Found: /html
+WARNING 2024-07-02 21:01:17,693 basehttp 10700 9020 "GET /html HTTP/1.1" 404 2409
+WARNING 2024-07-02 21:01:25,560 log 10700 9020 Not Found: /market/users.html
+WARNING 2024-07-02 21:01:25,561 basehttp 10700 9020 "GET /market/users.html HTTP/1.1" 404 3822
+WARNING 2024-07-02 21:01:35,011 log 10700 9020 Not Found: /market/item.html
+WARNING 2024-07-02 21:01:35,011 basehttp 10700 9020 "GET /market/item.html HTTP/1.1" 404 3819
+INFO 2024-07-02 21:02:00,613 basehttp 10700 9020 "GET /market/item/ HTTP/1.1" 200 1623
+WARNING 2024-07-02 21:02:03,424 log 10700 9020 Not Found: /
+WARNING 2024-07-02 21:02:03,425 basehttp 10700 9020 "GET / HTTP/1.1" 404 2379
+INFO 2024-07-02 21:02:05,889 basehttp 10700 9020 "GET /market/users/ HTTP/1.1" 200 532
+INFO 2024-07-02 21:02:10,131 basehttp 10700 9020 "GET /market/item/ HTTP/1.1" 200 1623
+WARNING 2024-07-02 21:02:28,064 log 10700 9020 Not Found: /
+WARNING 2024-07-02 21:02:28,065 basehttp 10700 9020 "GET / HTTP/1.1" 404 2379
+INFO 2024-07-02 21:03:39,075 basehttp 10700 9020 "GET /market/item/ HTTP/1.1" 200 1576
