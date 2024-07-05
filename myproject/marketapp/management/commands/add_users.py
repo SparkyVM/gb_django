@@ -12,7 +12,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
         count = kwargs['count']
-        for i in range(1,count+2):
+        for i in range(1,count+1):
             rand_phone = randint(100_000, 999_999)
             new_user = User (name=f'user_{i}',
                              email=f'email_{i}@mail.ru',

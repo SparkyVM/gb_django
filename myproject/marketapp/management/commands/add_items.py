@@ -11,13 +11,14 @@ class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
         count = kwargs['count']
-        for i in range(1,count+2):
+        for i in range(1,count+1):
             rand_price = round(uniform(50.50, 500.50), 2)
             rand_count = randint(1_000, 10_000)
             new_item = Item (name=f'item_{i}',
                              description=f'description_{i}',
                              price=f'{rand_price}',
                              count=f'{rand_count}',
-                             date_add=datetime.now() )
+                             date_add=datetime.now(),
+                             img = None)
             new_item.save()
             self.stdout.write(f'{new_item}')
