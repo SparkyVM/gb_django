@@ -1,0 +1,7 @@
+*.log
+*.sqlite3
+*.pyc
+.idea/
+venv/
+media/
+myproject/hw_text.txt
