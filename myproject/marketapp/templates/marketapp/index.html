@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+            Главная страница
+        {% endblock %}
+    </title>
+</head>
+<body>
+    {% block content %}
+        Контент
+    {% endblock %}
+    <hr>
+    <p><a href="../../market/">Маркет</a></p>
+    <p><a href="../../game/">Игры</a></p>
+</body>
+</html>
